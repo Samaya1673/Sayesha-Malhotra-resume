@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayesha Malhotra - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .section-title {
+            border-bottom: 3px solid #6366F1; /* indigo-500 */
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+             <h1 class="text-2xl font-bold text-slate-800">Sayesha Malhotra</h1>
+             <nav class="hidden md:flex space-x-8">
+                <a href="#summary" class="text-slate-600 hover:text-indigo-500 transition-colors">Summary</a>
+                <a href="#experience" class="text-slate-600 hover:text-indigo-500 transition-colors">Experience</a>
+                <a href="#skills" class="text-slate-600 hover:text-indigo-500 transition-colors">Skills</a>
+                <a href="#awards" class="text-slate-600 hover:text-indigo-500 transition-colors">Awards</a>
+             </nav>
+             <a href="#contact" class="hidden md:inline-block bg-indigo-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-600 transition-colors">Contact</a>
+        </div>
+    </header>
+    
+    <!-- Profile Section -->
+    <section class="bg-white py-20 md:py-28">
+        <div class="container mx-auto px-6 text-center">
+            <!-- Placeholder for profile picture -->
+            <div class="w-40 h-40 mx-auto bg-slate-200 rounded-full mb-6 flex items-center justify-center">
+                 <i class="fas fa-user text-6xl text-slate-400"></i>
+            </div>
+            <h2 class="text-4xl md:text-6xl font-extrabold text-slate-800">SAYESHA MALHOTRA</h2>
+            <div class="mt-4 flex justify-center items-center flex-wrap gap-x-6 gap-y-2 text-slate-600 text-lg">
+                <a href="mailto:sayeshaamalhotra@gmail.com" class="hover:text-indigo-500 transition-colors flex items-center">
+                    <i class="fas fa-envelope mr-2"></i>
+                    sayeshaamalhotra@gmail.com
+                </a>
+                <span class="hidden md:inline">|</span>
+                <div class="flex items-center">
+                    <i class="fas fa-phone mr-2"></i>
+                    682-622-1688
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+
+        <!-- Summary Section -->
+        <section id="summary" class="mb-20 text-center">
+            <h2 class="text-3xl font-bold mb-6 section-title">Summary</h2>
+            <p class="max-w-3xl mx-auto text-xl leading-relaxed text-slate-600">
+                Highly motivated and eager sophomore with a passion for medicine, seeking a valuable summer opportunity in a medical or scientific setting. Proven leadership, teamwork, and critical thinking skills honed through active involvement in HOSA, DECA and community service initiatives. I am confident in my ability to contribute effectively and learn from a rewarding summer experience.
+            </p>
+        </section>
+
+        <!-- Two Column Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <!-- Left Column -->
+            <div class="lg:col-span-2">
+                <!-- Experience Section -->
+                <section id="experience" class="mb-16">
+                    <h2 class="text-3xl font-bold mb-8 section-title">Experience</h2>
+                    <div class="space-y-8 relative border-l-2 border-slate-200 pl-10">
+                        <!-- Timeline dots -->
+                        <div class="absolute -left-[11px] top-2 w-5 h-5 bg-indigo-500 rounded-full"></div>
+                        <div class="absolute -left-[11px] top-48 w-5 h-5 bg-indigo-500 rounded-full"></div>
+                        <div class="absolute -left-[11px] top-96 w-5 h-5 bg-indigo-500 rounded-full"></div>
+                        <div class="absolute -left-[11px] bottom-16 w-5 h-5 bg-indigo-500 rounded-full"></div>
+                        
+                        <div class="card p-6">
+                            <p class="text-sm text-slate-500 mb-1">Aug 2023 - Present</p>
+                            <h3 class="text-xl font-bold text-slate-800">Carroll Medical Academy (CMA)</h3>
+                            <p class="mt-2">Engaged in a rigorous track, including advanced placement courses and career exploration events fostering intellectual curiosity, leadership skills, and commitment to community engagement.</p>
+                        </div>
+                        <div class="card p-6">
+                            <p class="text-sm text-slate-500 mb-1">Aug 2024 - Present</p>
+                            <h3 class="text-xl font-bold text-slate-800">Intern, House of Shine Leadership Institute</h3>
+                            <p class="mt-2">Refining leadership, communication, and collaboration skills through a leadership development program focused on community impact.</p>
+                        </div>
+                        <div class="card p-6">
+                            <p class="text-sm text-slate-500 mb-1">Aug 2024 - Present</p>
+                            <h3 class="text-xl font-bold text-slate-800">Co-founder, Safe Zones, Carroll HS</h3>
+                            <p class="mt-2">Co-founded a student-led initiative providing a safe space for stress management and promoting physiological safety and physical connection.</p>
+                        </div>
+                        <div class="card p-6">
+                             <p class="text-sm text-slate-500 mb-1">Feb 2023 - Present</p>
+                            <h3 class="text-xl font-bold text-slate-800">Volunteer, Scholars & Athletes Serving Others (SASO)</h3>
+                            <p class="mt-2">Gained valuable experience in teamwork, leadership, and community engagement through participation in various philanthropic initiatives.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Awards Section -->
+                <section id="awards">
+                    <h2 class="text-3xl font-bold mb-8 section-title">Awards & Recognition</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="card p-6 flex items-center space-x-4">
+                            <i class="fas fa-award text-3xl text-indigo-500"></i>
+                            <div>
+                                <h3 class="font-bold">President's Volunteer Service Award</h3>
+                                <p class="text-sm">2024</p>
+                            </div>
+                        </div>
+                         <div class="card p-6 flex items-center space-x-4">
+                            <i class="fas fa-trophy text-3xl text-indigo-500"></i>
+                            <div>
+                                <h3 class="font-bold">DECA State Qualifier</h3>
+                                <p class="text-sm">Innovation Category</p>
+                            </div>
+                        </div>
+                        <div class="card p-6 flex items-center space-x-4">
+                            <i class="fas fa-medal text-3xl text-indigo-500"></i>
+                            <div>
+                                <h3 class="font-bold">HOSA Area Competition</h3>
+                                <p class="text-sm">4th & 5th Place, Creative Problem Solving</p>
+                            </div>
+                        </div>
+                        <div class="card p-6 flex items-center space-x-4">
+                            <i class="fas fa-palette text-3xl text-indigo-500"></i>
+                            <div>
+                                <h3 class="font-bold">UIL Art Competition</h3>
+                                <p class="text-sm">1st Place, Art History</p>
+                            </div>
+                        </div>
+                        <div class="card p-6 flex items-center space-x-4">
+                            <i class="fas fa-star text-3xl text-indigo-500"></i>
+                            <div>
+                                <h3 class="font-bold">Visual Arts Scholastic Event (VASE)</h3>
+                                <p class="text-sm">Rating 4 (Highest)</p>
+                            </div>
+                        </div>
+                        <div class="card p-6 flex items-center space-x-4">
+                            <i class="fas fa-lightbulb text-3xl text-indigo-500"></i>
+                            <div>
+                                <h3 class="font-bold">House of Shine Change Bowl Award</h3>
+                                <p class="text-sm">Awarded $1200 funding</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <!-- Skills Section -->
+                <section id="skills" class="mb-16">
+                    <h2 class="text-3xl font-bold mb-8 section-title">Skills</h2>
+                    <div class="card p-6">
+                        <ul class="space-y-4">
+                            <li class="flex items-center"><i class="fas fa-users text-indigo-500 w-6"></i>Leadership & Initiative</li>
+                            <li class="flex items-center"><i class="fas fa-handshake-angle text-indigo-500 w-6"></i>Teamwork & Collaboration</li>
+                            <li class="flex items-center"><i class="fas fa-paint-brush text-indigo-500 w-6"></i>Creativity & Artistic Ability</li>
+                            <li class="flex items-center"><i class="fas fa-briefcase text-indigo-500 w-6"></i>Business Acumen & Communication</li>
+                            <li class="flex items-center"><i class="fas fa-heart text-indigo-500 w-6"></i>Community Engagement & Compassion</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section id="education" class="mb-16">
+                    <h2 class="text-3xl font-bold mb-8 section-title">Education</h2>
+                    <div class="card p-6">
+                        <h3 class="text-xl font-bold">Carroll High School</h3>
+                        <p class="text-slate-500">Southlake, TX | Est. Grad: May 2027</p>
+                        <p class="mt-2"><span class="font-semibold">GPA:</span> 103.5 / 4.12</p>
+                        <p><span class="font-semibold">SAT:</span> 1470</p>
+                        <h4 class="font-semibold mt-4 mb-2">Relevant Coursework:</h4>
+                        <div class="flex flex-wrap gap-2">
+                           <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">AP Biology</span>
+                           <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">AP Seminar</span>
+                           <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Anatomy & Physiology</span>
+                           <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Medical Terminology</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Extracurriculars -->
+                <section id="extracurriculars" class="mb-16">
+                    <h2 class="text-3xl font-bold mb-8 section-title">Activities</h2>
+                    <div class="card p-6">
+                        <ul class="space-y-2 list-disc list-inside">
+                            <li>Carroll Medical Academy</li>
+                            <li>Health Occupations Students of America (HOSA)</li>
+                            <li>Distributive Education Clubs of America (DECA)</li>
+                            <li>Psychology Club</li>
+                            <li>Southlake Musician</li>
+                            <li>Miracles of Music</li>
+                        </ul>
+                    </div>
+                </section>
+
+                 <!-- Certification -->
+                <section id="certification">
+                    <h2 class="text-3xl font-bold mb-8 section-title">Certification</h2>
+                    <div class="card p-6">
+                        <h3 class="font-bold text-lg">Psychological First Aid</h3>
+                        <p class="text-slate-500">Johns Hopkins University</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-800 text-white mt-20 py-16">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+            <p class="text-lg mb-8 max-w-xl mx-auto">I am actively seeking summer opportunities in a medical or scientific setting and would love to hear from you.</p>
+            <a href="mailto:sayeshaamalhotra@gmail.com" class="bg-indigo-500 text-white font-bold py-4 px-8 rounded-lg hover:bg-indigo-600 transition-all duration-300 text-lg shadow-lg inline-block">
+                <i class="fas fa-envelope mr-3"></i>Email Sayesha
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
